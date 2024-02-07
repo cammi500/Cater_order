@@ -53,17 +53,17 @@ export const faces = [
   {
     name: "HAPPY CUSTOMERS",
     icon: <i className="fas fa-users fa-4x mb-4 text-white"></i>,
-    counter: "845",
+    counter: "545",
   },
   {
     name: "EXPERT CHEFS",
     icon: <i className="fas fa-users-cog fa-4x mb-4 text-white"></i>,
-    counter: "105",
+    counter: "100",
   },
   {
     name: "EVENTS COMPLETE",
     icon: <i className="fas fa-check fa-4x mb-4 text-white"></i>,
-    counter: "245",
+    counter: "145",
   },
 ];
 

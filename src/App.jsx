@@ -16,6 +16,7 @@ import Menu from './components/pages/Menu';
 import Services from './components/pages/Services';
 import Cart from './components/pages/Cart';
 import Blog from './components/pages/Blog';
+import Footer from "./components/common/Footer";
 
 
 function App() {
@@ -33,10 +34,8 @@ function App() {
           <Route path="/services" element={<Services/>} />
           <Route path="/cart" element={<Cart/>} />
           <Route path="/blog" element={<Blog/>} />
-
-
-
         </Routes>
+        <Footer/>
       </Router>
     </>
   );
