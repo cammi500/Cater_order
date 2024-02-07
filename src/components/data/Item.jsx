@@ -443,17 +443,17 @@ export const contact = [
   {
     icon: <i className="fas fa-map-marker-alt fa-2x text-primary me-4"></i>,
     title: "Address",
-    address: "123 Street, New York, USA",
+    address: "123 Street, Yangon,Myanmar",
   },
   {
     icon: <i className="fas fa-envelope fa-2x text-primary me-4"></i>,
     title: "Mail Us",
-    address: "info@example.com",
+    address: "Thiriaung812003@gmail.com",
   },
   {
     icon: <i className="fa fa-phone-alt fa-2x text-primary me-4"></i>,
     title: "Telephone",
-    address: "(+012) 3456 7890 123",
+    address: "09-793368862",
   },
 ];
 export const blog = [

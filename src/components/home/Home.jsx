@@ -4,6 +4,7 @@ import About from '../pages/About'
 import Services from '../pages/Services'
 import Event from '../pages/Event'
 import Menu from '../pages/Menu'
+import Blog from '../pages/Blog'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Services/>
     <Event/>
     <Menu/>
+    <Blog/>
     </>
   )
 }
