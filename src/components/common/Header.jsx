@@ -28,7 +28,7 @@ export const Header = () => {
               <div className="navbar-nav mx-auto">
                 {navList.map((nav, index) =>  (
                   <div className="">
-                    <Link to={nav.path} className='nav-item nav-link'>
+                    <Link to={nav.path} key={index} className='nav-item nav-link'>
                       {nav.text}
                     </Link>
                   </div>
