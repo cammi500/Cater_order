@@ -53,7 +53,7 @@ export default function Contact() {
               <div className="col-md-6 col-lg-5">
                 <div>
                   {contact.map((val, index) => (
-                    <div className="d-inline-flex w-100 border border-primary p-4 rounded mb-4">
+                    <div className="d-inline-flex w-100 border border-primary p-4 rounded mb-4" key={index}>
                       {val.icon}
                       <div className="">
                         <h4>{val.title}</h4>
