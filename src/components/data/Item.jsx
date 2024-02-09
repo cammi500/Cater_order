@@ -369,6 +369,7 @@ export const menu = [
 export const footerIcon = [
   {
     icon: <i className="fab fa-facebook-f"></i>,
+    link :"https://www.facebook.com/thiri.aung.20/"
   },
   {
     icon: <i className="fab fa-twitter"></i>,
@@ -403,15 +404,15 @@ export const footerUnitItem = [
 export const footerUnitContact = [
   {
     icon: <i className="fa fa-map-marker-alt text-primary me-2"></i>,
-    name: "123 Street, New York, USA",
+    name: "123 Street, Yangon ,Myanmar",
   },
   {
     icon: <i className="fa fa-phone-alt text-primary me-2"></i>,
-    name: "(+012) 3456 7890 123",
+    name: "09-7933368862",
   },
   {
     icon: <i className="fas fa-envelope text-primary me-2"></i>,
-    name: "info@example.com",
+    name: "Thiriaung@gmail.com",
   },
   {
     icon: <i className="fa fa-clock text-primary me-2"></i>,

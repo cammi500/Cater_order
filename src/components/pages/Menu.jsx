@@ -1,25 +1,26 @@
 import React, { useState } from "react";
-
+// import Heading from "../common/Heading";
 import { menu } from "../data/Item";
 import CommonHeading from "../common/CommonHeading";
 import { Link, useNavigate } from "react-router-dom";
-
+import { addToCart, getCartTotal } from "../../redux/cartSlice";
+import { useDispatch } from "react-redux";
 
 export default function Menu() {
-  // const navigate = useNavigate();
-  // const dispatch = useDispatch();
-  // const [qty, setQty] = useState(1);
-  // const handleAddToCart = (item) => {
-  //   console.log(item);
-  //   let totalPrice = qty * item.price;
-  //   const tempProduct = {
-  //     ...item,
-  //     quantity: qty,
-  //     totalPrice,
-  //   };
-  //   dispatch(addToCart(tempProduct));
-  //   dispatch(getCartTotal());
-  // };
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const [qty, setQty] = useState(1);
+  const handleAddToCart = (item) => {
+    console.log(item);
+    let totalPrice = qty * item.price;
+    const tempProduct = {
+      ...item,
+      quantity: qty,
+      totalPrice,
+    };
+    dispatch(addToCart(tempProduct));
+    dispatch(getCartTotal());
+  };
 
   const [menuItem, setMenuItem] = useState(menu);
   const filterItems = (category) => {
@@ -102,7 +103,7 @@ export default function Menu() {
                   onClick={() => filterItems("ourspecials")}
                 >
                   <span className="text-dark" style={{ width: "150px" }}>
-                    Our Special
+                    Our Spesial
                   </span>
                 </a>
               </li>

@@ -29,7 +29,8 @@ export default function Footer() {
                     <a
                       key={index}
                       className="btn btn-primary btn-sm-square me-2 rounded-circle"
-                      href=""
+                      href="" 
+                      
                     >
                       {val.icon}
                     </a>
